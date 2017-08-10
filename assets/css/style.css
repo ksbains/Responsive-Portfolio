@@ -237,3 +237,43 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+/*this screen is for computers*/
+@media screen and (max-width: 980px){
+  .container {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+.main-section {
+  float: left;
+  width: 60%;
+}
+.sidebar {
+  float: right;
+  position: absolute;
+  left: 55%;
+  top:20%;
+  width: 30%;
+  margin-left: 10%;
+  margin-right: 10%;  
+}
+footer {
+  width: 100%;
+}
+
+}
+
+/*this is for tablets*/
+@media screen and (max-width: 768px){
+  .container {
+  width: 100%;
+}  
+}
+
+/*this is for phones*/
+@media screen and (max-width: 640px){
+   .container {
+  width: 100%;
+} 
+}
