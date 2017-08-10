@@ -75,6 +75,7 @@ h3 {
   text-align: center;
   text-decoration: none;
   background: #4aaaa5;
+
 }
 
 nav {
@@ -115,6 +116,7 @@ footer {
   float: right;
   width: 100%;
   max-width: 270px;
+  max-height: 230px;
   padding: 30px;
   margin-bottom: 20px;
   background: #fff;
@@ -245,21 +247,34 @@ input[type=submit] {
   padding: 0px;
   margin: 0px;
 }
+
+#logo{
+  margin-left: 5%;
+}
+nav {
+  float: right;
+  margin-right: 5%;
+}
 .main-section {
   float: left;
   width: 60%;
+  margin-left: 5%;
+  margin-bottom: 15%;  
 }
 .sidebar {
   float: right;
   position: absolute;
   left: 55%;
-  top:20%;
+  top: 16%;
   width: 30%;
-  margin-left: 10%;
-  margin-right: 10%;  
+  margin-left: 12%;
+  margin-right: 5%;  
 }
 footer {
   width: 100%;
+  position: fixed;
+  bottom: 0px;
+  margin-top: 20%;
 }
 
 }
@@ -268,7 +283,34 @@ footer {
 @media screen and (max-width: 768px){
   .container {
   width: 100%;
-}  
+  padding: 0px;
+  margin: 0px;
+}
+nav {
+  float: right;
+  margin-right: 10%;
+}
+.main-section {
+  width: 100%;
+  margin: 0% 5% 10% 5%;
+  margin-bottom: 15%;
+  display: block;  
+}
+.sidebar {
+  max-width: 650px;
+  width: 100%;
+  display: inline-block;
+  margin: 78% 0 19% -50%;
+
+  
+}
+footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  margin-top: 20%;
+}
+ 
 }
 
 /*this is for phones*/
