@@ -310,7 +310,7 @@ nav {
   max-width: 650px;
   width: 100%;
   display: inline-block;
-  margin: 70% 0 19% -50%;
+  margin: 85% 0 19% -50%;
 
   }
 footer {
@@ -344,12 +344,13 @@ footer {
   
   .main-section {
     width: 100%;
-    margin: 15% 5% 10% 5%;
+    margin: 5% 5% 10% 5%;
     margin-bottom: 5%;
     display: block;  
     margin: 5%;
     margin-right: 5%;
     padding-bottom:10%;
+    padding-top: 5%;
   }
   
   .sidebar {
@@ -357,7 +358,7 @@ footer {
     width: 100%;
     display: inline-block;
     display: block;
-    margin: 160% 0% 19% -50%;
+    margin: 115% 0% 19% -50%;
   }
 
   #logo{
